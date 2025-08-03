@@ -27,3 +27,12 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Ignore Drivers directory ###
+/Drivers/
+
+###jdbc connectivity###
+/src/Utils/MySQLConnection.java
+
+
+
