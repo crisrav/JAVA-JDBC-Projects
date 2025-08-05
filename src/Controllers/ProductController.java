@@ -203,9 +203,7 @@ public class ProductController {
                     e.printStackTrace();
                 }
             }
-            case 4 -> {
-                System.out.println("Saving Changes. . .");
-            }
+            case 4 -> System.out.println("Saving Changes. . .");
             default -> System.out.println("Invalid Choice");
         }//end of switch
 

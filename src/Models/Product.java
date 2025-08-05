@@ -15,6 +15,10 @@ public class Product {
     }
 
     //Setters
+    public void setProduct_id(int product_id) {
+        this.product_id = product_id;
+    }
+
     public void setProduct_name(String product_name) {
         this.product_name = product_name;
     }
@@ -25,10 +29,6 @@ public class Product {
 
     public void setProduct_qty(int product_qty) {
         this.product_qty = product_qty;
-    }
-
-    public void setProduct_id(int product_id) {
-        this.product_id = product_id;
     }
 
     //Getters
